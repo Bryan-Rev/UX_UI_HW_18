@@ -1,8 +1,8 @@
 body{
-    font-family: 'trispace';
-   
+    font-family: 'trispace';  
     margin: 0;
-
+    
+    
 }
 .container{
     width: 80%;
@@ -19,7 +19,6 @@ header::after{
 .Logo{
     float: left;
     padding: 5px 0;
-
 }
 nav{
     float: right;
@@ -53,7 +52,7 @@ button{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 12px 24px;
+    padding: 10px 25px;
     gap: 8px;
 
     width: 123px;
@@ -69,13 +68,46 @@ button{
     
 }
 .heroimg{
-    height: 600px;
-    padding: 25px;
-    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 80px 25px;
+    gap: 270px;
+
+    width: 1920px;
+    height: 754px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.imageinhero{
+    float: right;
+    padding-top: 0;
 }
 .content{
-    width: 500px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0;
+    padding-top: 80px;
+    padding-left: 160px;
+
+    width: 653px;
+    height: 264px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+.heroabout{
+    font-size: 16px;
+    width: 533px;
+    height: 120px;
+    
+    
 }
 .containerf{
     display: flex;
@@ -87,7 +119,8 @@ footer{
 
 }
 h1{
-    font-size: 48px;
+    font-size: 64px;
+    height: 72px;
 }
 h2{
     text-align: center;
@@ -110,7 +143,7 @@ li{
     display: inline-block;
     margin-left: 15px;
     padding-top: 10px;
-    font-size: 24px;
+    
 
     list-style: none;
 }
@@ -118,8 +151,25 @@ li{
     padding-top: 25px;
     text-align: center;
 }
+.traitscontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 399px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 .traits{
     font-size: 16px;
+    word-spacing: 24px;
+   
+    
 }
 .Bryan{
     background: linear-gradient(95.47deg, #9080BC 53.47%, #6D9DEA 94.69%);
