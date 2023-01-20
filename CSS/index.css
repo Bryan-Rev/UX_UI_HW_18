@@ -71,11 +71,10 @@ button{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 80px 25px;
-    gap: 270px;
+    padding: 80px 190px;
+    gap: 240px;
 
-    width: 1920px;
-    height: 754px;
+    
 
     flex: none;
     order: 1;
@@ -91,11 +90,11 @@ button{
     align-items: flex-start;
     padding: 0px;
     gap: 0;
-    padding-top: 80px;
-    padding-left: 160px;
+    
+   
 
     width: 653px;
-    height: 264px;
+    height: 288px;
 
     flex: none;
     order: 0;
@@ -105,10 +104,33 @@ button{
 .heroabout{
     font-size: 16px;
     width: 533px;
-    height: 120px;
+    
+   
     
     
 }
+h1{
+    font-size: 64px;
+    height: 72px;
+}
+.traitscontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    font-size: 16px;
+    word-spacing: 24px;
+    
+
+    width: 370px;
+    
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
 .containerf{
     display: flex;
     flex-direction: column;
@@ -118,10 +140,7 @@ footer{
     background: #F7F7F9;
 
 }
-h1{
-    font-size: 64px;
-    height: 72px;
-}
+
 h2{
     text-align: center;
     padding-top: 10px;
@@ -151,26 +170,7 @@ li{
     padding-top: 25px;
     text-align: center;
 }
-.traitscontainer{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
 
-    width: 399px;
-    height: 24px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.traits{
-    font-size: 16px;
-    word-spacing: 24px;
-   
-    
-}
 .Bryan{
     background: linear-gradient(95.47deg, #9080BC 53.47%, #6D9DEA 94.69%);
     -webkit-background-clip: text;
