@@ -34,7 +34,7 @@ nav li{
     margin-left: 20px;
     padding-top: 25px;
 }
-button{
+.navbutton{
     width: 73px;
     height: 24px;
 
@@ -157,7 +157,106 @@ h3{
     font-size: 48px;
     margin: 0;
 }
-/* 
+/* MY WORK SECTION */
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 64px;
+    gap: 48px;
+
+    
+    height: 1338px;
+
+
+    
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+h4{
+    font-size: 48px;
+    margin: 0;
+}
+.myworkcards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 1312px;
+    height: 1066px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.myworkcard1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    gap: 164px;
+
+    width: 1312px;
+    height: 334px;
+
+    background: #F7F7F9;
+    border-radius: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.card1right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 534px;
+    height: 270px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+h5{
+    font-size: 32px;
+    margin: 0;
+}
+.viewproject1{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 25px;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 124px;
+    background:none;
+
+    width: 202px;
+    height: 44px;
+
+
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
 
 /* FOOTER SECTION */
 .containerf{
