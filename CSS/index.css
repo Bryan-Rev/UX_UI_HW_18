@@ -4,6 +4,7 @@ body{
     
     
 }
+/* NAVIGATION SECTION */
 .container{
     width: 80%;
     margin: 0 auto;
@@ -67,14 +68,13 @@ button{
     border: none;
     
 }
+/* HERO SECTION */
 .heroimg{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 80px 190px;
     gap: 240px;
-
-    
 
     flex: none;
     order: 1;
@@ -91,8 +91,6 @@ button{
     padding: 0px;
     gap: 0;
     
-   
-
     width: 653px;
     height: 288px;
 
@@ -104,10 +102,6 @@ button{
 .heroabout{
     font-size: 16px;
     width: 533px;
-    
-   
-    
-    
 }
 h1{
     font-size: 64px;
@@ -122,15 +116,50 @@ h1{
     font-size: 16px;
     word-spacing: 24px;
     
-
     width: 370px;
     
-
     flex: none;
     order: 0;
     flex-grow: 0;
 }
+/* TOOLS SECTION */
+.toolscontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: linear-gradient(92.78deg, #9081BD 24.69%, #6E9DEA 93.23%);
+}
+/* ABOUT ME SECTION */
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    gap: 155px;
+    padding: 80px 190px;
+}
+.aboutmeinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
 
+    width: 602px;
+    
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+h3{
+    font-size: 48px;
+    margin: 0;
+}
+/* 
+
+/* FOOTER SECTION */
 .containerf{
     display: flex;
     flex-direction: column;
