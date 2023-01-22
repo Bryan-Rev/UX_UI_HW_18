@@ -187,7 +187,7 @@ h4{
     gap: 32px;
 
     width: 1312px;
-    height: 1066px;
+    
 
     flex: none;
     order: 1;
@@ -220,9 +220,6 @@ h4{
     width: 534px;
     height: 270px;
 
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -238,13 +235,13 @@ h5{
     flex-direction: row;
     align-items: flex-start;
     padding: 10px 25px;
-    gap: 8px;
+    gap: 19px;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 124px;
+    margin-top: 131px;
     background:none;
 
-    width: 202px;
+    width: 184px;
     height: 44px;
 
 
@@ -255,8 +252,120 @@ h5{
     order: 1;
     flex-grow: 0;
 }
+h6{
+    font-size: 32px;
+    margin: 0;
+}
+.myworkcard2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    gap: 164px;
+
+    width: 1312px;
+    height: 334px;
+
+    background: #F7F7F9;
+    border-radius: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.card2right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 534px;
+    height: 270px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.viewproject2{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 25px;
+    gap: 19px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 88px;
+    background:none;
+
+    width: 184px;
+    height: 44px;
 
 
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.myworkcard3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    gap: 164px;
+
+    width: 1312px;
+    height: 334px;
+
+    background: #F7F7F9;
+    border-radius: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.card3right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 534px;
+    height: 270px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.viewproject3{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 25px;
+    gap: 19px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 131px;
+    background:none;
+
+    width: 184px;
+    height: 44px;
+
+
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
 
 /* FOOTER SECTION */
 .containerf{
